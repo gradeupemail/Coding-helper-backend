@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+httpx
+mistralai
+langchain_groq
+python-dotenv
