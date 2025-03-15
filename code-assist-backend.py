@@ -161,4 +161,4 @@ async def generate_route(request: Request):
 
 
 if __name__ == "__main__":
-    uvicorn.run("code-assist-backend:app", host="0.0.0.0", port=3000)
+    uvicorn.run("code-assist-backend:app", host="0.0.0.0", port=int(os.environ.get("PORT", 3000)))
