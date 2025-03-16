@@ -11,7 +11,6 @@ leetcode_test.png
 code-assist-backend.py
 README.md
 requirements.txt
-myenv/
 ```
 
 ## Endpoints
