@@ -3,7 +3,7 @@
 "builds": [
   {
     "src": "./code-assist-backend.py",
-    "use": "@vercel/python"
+    "use": "@vercel/python",
     "config": { "maxLambdaSize": "15mb"}
   }
 ],
