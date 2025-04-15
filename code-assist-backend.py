@@ -15,7 +15,7 @@ MISTRAL_API_KEY = os.getenv("MISTRAL_API_KEY")
 client = Mistral(api_key=MISTRAL_API_KEY)
 
 groq_llm = ChatGroq(
-    model_name="qwen-2.5-coder-32b",
+    model_name="qwen-qwq-32b",
     temperature=0.0,
     model_kwargs={"response_format": {"type": "json_object"}},
     groq_api_key=os.getenv("GROQ_API_KEY")
